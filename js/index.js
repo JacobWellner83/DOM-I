@@ -40,3 +40,89 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+
+//Nav Items
+
+//Nav 1
+
+//Nav 2
+
+//Nav 3
+
+//Nav 4
+
+//Nav 5
+
+//Nav 6
+
+
+
+//CTA Items
+
+//H1
+
+//Button
+
+//Image
+
+
+
+//Features
+
+//H4
+
+//P
+
+
+
+//About
+
+//H4
+
+//P
+
+
+
+//Middle Image
+
+
+
+//Service
+
+//H4
+
+//P
+
+
+
+//Product
+
+//H4
+
+//P
+
+
+
+//Vision
+
+//H4
+
+//P
+
+
+
+//Contact
+
+
+
+//Footer
+
+
+
+//New Nav Items
+
+//Login
+
+
+//Sign Up
