@@ -158,7 +158,8 @@ email.innerText = siteContent['contact']['email'];
 
 
 //Footer
-
+let copyright = document.getElementsByTagName('p')[8];
+copyright.innerText = siteContent['footer']['copyright'];
 
 
 //New Nav Items
