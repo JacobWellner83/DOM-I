@@ -163,8 +163,13 @@ copyright.innerText = siteContent['footer']['copyright'];
 
 
 //New Nav Items
+let nav = document.querySelector('nav')
 
 //Login
-
+let login = document.createElement('a');
+login.innerText = "Login";
+login.style.color = 'green';
+login.setAttribute('href', '#')
+nav.appendChild(login);
 
 //Sign Up
