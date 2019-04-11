@@ -75,9 +75,9 @@ contact.style.color ='green';
 
 
 //CTA Items
-//H1
+//h1
 let ctaH1 = document.getElementsByTagName('h1')[0];
-ctaH1.innerText = siteContent['cta']['h1'];
+ctagH1.innerText = siteContent['cta']['h1'];
 
 //Button
 let ctaBtn = document.getElementsByTagName('button')[0];
@@ -89,7 +89,7 @@ ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
 
 
 //Features
-//H4
+//h4
 let featH4 = document.getElementsByTagName('h4')[0];
 featH4.innerText = siteContent['main-content']['features-h4'];
 
@@ -99,7 +99,7 @@ featP.innerText = siteContent['main-content']['features-content'];
 
 
 //About
-//H4
+//h4
 let aboutH4 = document.getElementsByTagName('h4')[1];
 aboutH4.innerText = siteContent['main-content']['features-h4'];
 
@@ -114,7 +114,7 @@ middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"])
 
 
 //Service
-//H4
+//h4
 let servicesH4 = document.getElementsByTagName('h4')[2];
 servicesH4.innerText = siteContent['main-content']['services-h4'];
 
@@ -124,7 +124,7 @@ servicesP.innerText = siteContent['main-content']['services-content'];
 
 
 //Product
-//H4
+//h4
 let productH4 = document.getElementsByTagName('h4')[3];
 productH4.innerText = siteContent['main-content']['product-h4'];
 
@@ -134,7 +134,7 @@ productP.innerText = siteContent['main-content']['product-content'];
 
 
 //Vision
-//H4
+//h4
 let visionH4 = document.getElementsByTagName('h4')[4];
 visionH4.innerText = siteContent['main-content']['vision-h4'];
 
@@ -144,7 +144,17 @@ visionP.innerText = siteContent['main-content']['vision-content'];
 
 
 //Contact
+let contactH4 = document.getElementsByTagName('h4')[5];
+contactH4.innerText = siteContent['contact']['contact-h4'];
 
+let address = document.getElementsByTagName('p')[5];
+address.innerText = siteContent['contact']['address'];
+
+let phone = document.getElementsByTagName('p')[6];
+phone.innerText = siteContent['contact']['phone'];
+
+let email = document.getElementsByTagName('p')[7];
+email.innerText = siteContent['contact']['email'];
 
 
 //Footer
