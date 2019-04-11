@@ -45,17 +45,34 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 //Nav Items
 
 //Nav 1
+let services = document.getElementsByTagName('a')[0];
+services.innerText = siteContent['nav']['nav-item-1']
+services.style.color ='green';
 
 //Nav 2
+let product = document.getElementsByTagName('a')[1];
+product.innerText = siteContent['nav']['nav-item-2']
+product.style.color ='green';
 
 //Nav 3
+let vision = document.getElementsByTagName('a')[2];
+vision.innerText = siteContent['nav']['nav-item-3']
+vision.style.color ='green';
 
 //Nav 4
+let features = document.getElementsByTagName('a')[3];
+features.innerText = siteContent['nav']['nav-item-4']
+features.style.color ='green';
 
 //Nav 5
+let about = document.getElementsByTagName('a')[4];
+about.innerText = siteContent['nav']['nav-item-5']
+about.style.color ='green';
 
 //Nav 6
-
+let contact = document.getElementsByTagName('a')[5];
+contact.innerText = siteContent['nav']['nav-item-6'];
+contact.style.color ='green';
 
 
 //CTA Items
