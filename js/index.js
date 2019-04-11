@@ -43,7 +43,6 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 
 //Nav Items
-
 //Nav 1
 let services = document.getElementsByTagName('a')[0];
 services.innerText = siteContent['nav']['nav-item-1']
@@ -76,13 +75,17 @@ contact.style.color ='green';
 
 
 //CTA Items
-
 //H1
+let ctaH1 = document.getElementsByTagName('h1')[0];
+ctaH1.innerText = siteContent['cta']['h1'];
 
 //Button
+let ctaBtn = document.getElementsByTagName('button')[0];
+ctaBtn.innerText = siteContent['cta']['button'];
 
 //Image
-
+let ctaImg = document.getElementsByTagName('img')[1];
+ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
 
 
 //Features
