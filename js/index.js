@@ -173,3 +173,8 @@ login.setAttribute('href', '#')
 nav.appendChild(login);
 
 //Sign Up
+let signUp = document.createElement('a');
+signUp.innerText = "Login";
+signUp.style.color = 'green';
+signUp.setAttribute('href', '#')
+nav.prependChild(signUp);
