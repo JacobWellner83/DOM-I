@@ -89,47 +89,58 @@ ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
 
 
 //Features
-
 //H4
+let featH4 = document.getElementsByTagName('h4')[0];
+featH4.innerText = siteContent['main-content']['features-h4'];
 
 //P
-
+let featP = document.getElementsByTagName('p')[0];
+featP.innerText = siteContent['main-content']['features-content'];
 
 
 //About
-
 //H4
+let aboutH4 = document.getElementsByTagName('h4')[1];
+aboutH4.innerText = siteContent['main-content']['features-h4'];
 
 //P
-
+let aboutP = document.getElementsByTagName('p')[1];
+aboutP.innerText = siteContent['main-content']['about-content'];
 
 
 //Middle Image
-
+let middleImg = document.getElementsByTagName('img')[2];
+middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"])
 
 
 //Service
-
 //H4
+let servicesH4 = document.getElementsByTagName('h4')[2];
+servicesH4.innerText = siteContent['main-content']['services-h4'];
 
 //P
-
+let servicesP = document.getElementsByTagName('p')[2];
+servicesP.innerText = siteContent['main-content']['services-content'];
 
 
 //Product
-
 //H4
+let productH4 = document.getElementsByTagName('h4')[3];
+productH4.innerText = siteContent['main-content']['product-h4'];
 
 //P
-
+let productP = document.getElementsByTagName('p')[3];
+productP.innerText = siteContent['main-content']['product-content'];
 
 
 //Vision
-
 //H4
+let visionH4 = document.getElementsByTagName('h4')[4];
+visionH4.innerText = siteContent['main-content']['vision-h4'];
 
 //P
-
+let visionP = document.getElementsByTagName('p')[4];
+visionP.innerText = siteContent['main-content']['vision-content'];
 
 
 //Contact
